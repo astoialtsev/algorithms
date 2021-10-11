@@ -3,7 +3,7 @@ package leetcode.medium;
 /**
  * https://leetcode.com/problems/rotate-image/
  */
-public class RotateImage {
+public class _48_RotateImage {
 
     public void rotate(int[][] matrix) {
         int n = matrix.length;
@@ -17,5 +17,4 @@ public class RotateImage {
             }
         }
     }
-
 }

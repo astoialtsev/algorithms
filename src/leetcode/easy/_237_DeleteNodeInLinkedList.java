@@ -3,7 +3,7 @@ package leetcode.easy;
 /**
  * https://leetcode.com/problems/delete-node-in-a-linked-list/
  */
-public class DeleteNodeInLinkedList {
+public class _237_DeleteNodeInLinkedList {
 
     public void deleteNode(ListNode node) {
         node.val = node.next.val;

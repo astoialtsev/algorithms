@@ -3,7 +3,10 @@ package leetcode.easy;
 import java.util.HashMap;
 import java.util.Map;
 
-public class RomanToInt {
+/**
+ * https://leetcode.com/problems/roman-to-integer/
+ */
+public class _13_RomanToInteger {
 
     Map<Character, Integer> romans = new HashMap<Character, Integer>() {{
         put('I', 1);
@@ -16,7 +19,6 @@ public class RomanToInt {
     }};
 
     public int romanToInt(String s) {
-        //System.out.print(s + " -> ");
         int res = 0;
 
         int i = 0;
@@ -63,8 +65,7 @@ public class RomanToInt {
         if (i < chars.length) {
             res += romans.get(chars[i]);
         }
-        //System.out.println(res);
+
         return res;
     }
-
 }

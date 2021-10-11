@@ -3,7 +3,7 @@ package leetcode.easy;
 /**
  * https://leetcode.com/problems/reverse-string/
  */
-public class ReverseString {
+public class _344_ReverseString {
 
     public void reverseString(char[] s) {
         int center = s.length / 2;
@@ -13,5 +13,4 @@ public class ReverseString {
             s[s.length - 1 - i] = tmp;
         }
     }
-
 }
